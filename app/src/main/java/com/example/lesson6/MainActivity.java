@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     public void my_click(View view) {
         String login = editText.getText().toString().trim();
         String password = editText1.getText().toString().trim();
-        if (login.equals("admin") && password.equals("password")) {
+        if (login.equals("a") && password.equals("p")) {
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
         } else {

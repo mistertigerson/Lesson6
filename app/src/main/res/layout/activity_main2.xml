@@ -18,6 +18,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         >
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="отправить"
+            android:layout_margin="5dp"
+            android:layout_gravity="end"
+            android:textSize="25sp"
+            android:textColor="#134E03"
+            android:padding="12dp"
+            android:background="@color/white"
+            android:onClick="my_click"
+            />
         <TextView
             android:id="@+id/calc_title"
             android:layout_width="match_parent"
